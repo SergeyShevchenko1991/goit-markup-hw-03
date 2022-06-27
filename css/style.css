@@ -77,7 +77,7 @@ p {
 }
 
 .logo {
-  margin-right: 68px;
+  margin-right: 93px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -95,9 +95,15 @@ p {
   list-style-type: none;
 }
 
+.menu li {
+  margin-right: 50px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
 .menu a {
-  padding-left: 25px;
-  padding-right: 25px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -117,8 +123,6 @@ p {
 }
 
 .header-contacts a {
-  padding-left: 25px;
-  padding-right: 25px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -126,8 +130,12 @@ p {
   text-decoration: none;
 }
 
-.header-contacts li:last-child a {
-  padding-right: 0;
+.header-contacts li {
+  margin-right: 50px;
+}
+
+.header-contacts li:last-child {
+  margin-right: 0;
 }
 
 .header-contacts a:hover,
@@ -136,6 +144,8 @@ p {
 }
 
 .intro {
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,6 +183,10 @@ p {
   font-family: inherit;
 }
 
+.benefits {
+  padding-bottom: 0;
+}
+
 .benefits h3 {
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -188,11 +202,12 @@ p {
 }
 
 .benefits-item {
-  padding-right: 30px;
+  flex: 1 1 0;
+  margin-right: 30px;
 }
 
 .benefits-item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .work-list {
@@ -201,11 +216,11 @@ p {
 }
 
 .work-item {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .work-item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .work-item img {
@@ -218,11 +233,11 @@ p {
 }
 
 .team-item {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .team-item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .team-detail {
@@ -262,7 +277,7 @@ p {
 }
 
 .location {
-  margin-bottom: 4px;
+  margin-bottom: 9px;
   font-style: normal;
   color: var(--white-color);
   line-height: 1.71;
@@ -272,17 +287,18 @@ p {
   list-style-type: none;
 }
 
+.footer-item {
+  margin-bottom: 9px;
+}
+
 .footer-contacts a {
-  display: inline-block;
-  padding-top: 5px;
-  padding-bottom: 5px;
   color: var(--grey-color);
   text-decoration: none;
   line-height: 1.71;
 }
 
-.footer-item:last-child a {
-  padding-bottom: 0;
+.footer-item:last-child {
+  margin-bottom: 0;
 }
 
 .project-list {
